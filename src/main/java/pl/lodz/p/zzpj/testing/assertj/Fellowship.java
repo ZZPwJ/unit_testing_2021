@@ -1,9 +1,9 @@
-package pl.ttpsc.testing.assertj;
+package pl.lodz.p.zzpj.testing.assertj;
 
-import com.google.common.collect.Lists;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,7 +13,7 @@ public class Fellowship implements Iterable<Fellow> {
     private final List<Fellow> fellows;
 
     public Fellowship(Fellow... fellows) {
-        this.fellows = Lists.newArrayList(fellows);
+        this.fellows = Arrays.asList(fellows);
     }
 
     @Override

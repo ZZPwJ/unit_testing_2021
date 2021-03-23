@@ -1,4 +1,4 @@
-package pl.ttpsc.testing.assertj;
+package pl.lodz.p.zzpj.testing.assertj;
 
 public class FellowBuilder {
     private String name;

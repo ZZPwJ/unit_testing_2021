@@ -7,7 +7,7 @@
 * 
 *  All rights belong to the authors of the book.
  */
-package pl.ttpsc.testing.junit.stack;
+package pl.lodz.p.zzpj.testing.junit.stack;
 
 public class StackEmptyException extends Exception {
 
